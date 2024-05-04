@@ -1,0 +1,46 @@
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  }
+
+.head-container-booking{
+    width:100%;
+  
+    background-image: radial-gradient(whitesmoke,silver);
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 100px 0 100px;
+}
+
+form{
+    display: grid;
+    grid-template-columns:1fr;
+    gap:20px;
+}
+
+.iconBtn{
+ mix-blend-mode: multiply;
+ width:30px;
+ position: absolute;
+ top:30px;
+ right:50px;
+ cursor: pointer;
+}
+
+input{
+    border:1px solid silver;
+    outline:none;
+    padding:15px;
+    width:70%;
+    
+}
+
+.submit{
+    color:#fff;
+    font-size: 15px;
+    font-weight: 900;
+    cursor: pointer;
+}

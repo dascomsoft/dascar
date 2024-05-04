@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Sacramento&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="reserve.css">
+    <title>Document</title>
+</head>
+<body>
+
+  
+    <div class="head-container-booking">
+      <div class="container">
+        <h2 class="display-5 fw-bold">Complete your reservation</h2>
+          <h3 class="titleBooking text-danger">Upon completing this reservation enquiry,you will received:</h3>
+            <p>A confirmation message through your email address for a successful reservation</p>
+             <h2 class="personalForm">Personal Information</h2>
+               <form>
+                 <input type="text"  id="name" placeholder="Enter your full name">
+                   <input type="text"  id="phone" placeholder="Enter your phone number">
+                   <input type="email"  id="email" placeholder="Enter your email">
+                 <input type="text"  value="RESERVE NOW" class="submit text-center bg-secondary">            
+            </form>
+             <p class="mt-2 lead fw-bold fs-4"  id="error-message" style="color: red; display: none;">O'oops please insert all your details!!!.</P>
+          <img src="images/timeIcon.png" class="iconBtn" onclick="closeFunc()"/>
+    </div>
+        <script src="reserve.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  }
+
+
+
+.aboutWrapper{
+  position: relative;
+  top:100px;
+}
+
+
+@media(max-width:600px){
+    .aboutWrapper{
+        position: relative;
+        top:100px;
+      }  
+}
+
+.about-content{
+    background-image:radial-gradient(rgba(20,21,51,0.1),rgba(20,21, 51,0.1));
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding:150px 0 100px;
+}
+
+
+@media(max-width:700px){
+    .about-content{
+        padding:150px 0 100px;
+
+    }
+}
+    
+img{
+    width:100%;
+
+}
+
+
+    .link{
+        text-decoration: none;
+        color: #f67;
+        font-weight: bolder;
+    }
+    
+    .link:hover{
+        color:blueviolet
+    }
+
+
+
+/*RESERVE SECTION*/
+
+
+
+
+.reserve-wrapper{
+  background-color:#333;
+  color: #fff;
+}
+
+.reserve-container{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+/*ABOUT SECTION*/
+
+
+
+
+.about-description{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:60px;
+   
+}
+
+
+.aboutImage{
+    width:100%;
+    height:500px;
+    object-fit: cover;
+    box-shadow: -10px 10px #5f5f60;
+}
+
+
+
+h4{
+    margin: 0 0 10px;
+}
+
+.aboutBox{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:60px;
+}
+
+
+/*CARS CATEGORIES*/
+.category-wrapper{
+    padding:100px 0 100px;
+
+}
+
+
+.section-content{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px
+}
+
+  
+    img{
+        width:100%
+    }
+
+
+
+
+
+/*FOOTER*/
+
+
+.section-footer{
+    color: #fff;
+    background-color: #333;
+    line-height:1.6;
+    
+}
+
+
+.section-footer .footer-content{
+  width:90%;
+  margin:auto;
+  padding: 100px 0 100px;
+}
+
+.section-footer .section-footer-container{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px
+}
+
+
+.section-footer .section-footer-detail a{
+   text-decoration: none;
+   color: #fff;
+}
+
+
+
+.section-footer .section-footer-detail a:hover{
+   
+    color:#ffa500;
+ }
+
+
+ .section-footer .section-footer-detail i{
+    border:1px solid orange;
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+    cursor: pointer;
+ }
+
+ .section-footer .section-footer-detail i:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+ }
+
+
+/*MediaQueries*/
+@media(max-width:890px){
+
+ 
+}
+
+@media(max-width:1200px){
+    .section-footer .section-footer-container{
+        display: grid;
+        grid-template-rows:1fr;
+        grid-template-columns: repeat(2,1fr);
+        gap:40px
+    }
+    
+    }
+    
+    
+    @media(max-width:800px){
+        .section-footer .section-footer-container{
+            display: grid;
+            grid-template-rows:1fr;
+            grid-template-columns:1fr;
+            gap:40px
+        }
+        
+        }
+   
+
+
+    @media(max-width:1250px){
+       .about-description{
+        display: grid;
+            grid-template-rows:1fr;
+            grid-template-columns:1fr;
+            gap:40px
+       }
+    }
+
+    @media(max-width:800px){
+        .aboutBox{
+         display: grid;
+         grid-template-rows:1fr;
+         grid-template-columns:repeat(2,1fr);
+         gap:40px;
+     }
+    }

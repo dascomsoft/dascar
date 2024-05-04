@@ -1,0 +1,31 @@
+/*DETAIL CAR DISPLAY*/
+
+.main-detail{
+    padding:90px 0 90px;
+}
+
+
+.detail-display{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns:repeat(2,1fr);
+    gap:50px
+}
+
+
+.detail-display img{
+    width:100%; 
+}
+
+@media(max-width:1400px){
+    .main-detail .detail-display{
+        display: grid;
+        grid-template-rows:1fr;
+        grid-template-columns:1fr;
+        gap:50px
+    }
+}
+
+.detail-display img{
+  
+}

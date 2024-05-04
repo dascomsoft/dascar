@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Teko", sans-serif;
+  }
+
+/*WRAPPER CONTAINER*/
+.header-wrapper{
+    background-color:whitesmoke ;
+}
+
+
+
+
+
+.teamWrapper{
+   position: relative;
+   top:170px;
+}
+
+img{
+    width:100%
+}
+
+.link{
+    text-decoration: none;
+    color: #f67;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: blueviolet;
+}
+
+
+
+/*TEAM SECTION*/
+
+.team-wrapper{
+    padding:100px 0 100px;
+}
+
+.team-description{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:30px;
+    
+}
+
+.team-container{
+    margin-top: 150px;
+    margin-bottom:50px ;
+}
+
+h4, .staff{
+    text-align: center;
+    padding: 10px;
+}
+
+.team-text{
+    box-shadow: 2px 3px 2px 2px silver;
+}
+
+
+/* RESERVE SECTION*/
+
+.reserve{
+    text-align:center ;
+    width:80%;
+    margin:auto ;
+}
+
+.reserve-wrapper{
+  background-color:#333;
+  color: #fff;
+}
+
+.reserve-container{
+    padding-top:60px;
+    padding-bottom: 60px;
+}
+
+.reserveSpan{
+    color:#f67
+}
+
+
+
+
+
+/*FOOTER*/
+
+
+.section-footer{
+    color: #fff;
+    background-color: #333;
+    line-height:1.6;
+    
+}
+
+
+.section-footer .footer-content{
+  width:90%;
+  margin:auto;
+  padding: 100px 0 100px;
+}
+
+.section-footer .section-footer-container{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(4,1fr);
+    gap:40px
+}
+
+
+.section-footer .section-footer-detail a{
+   text-decoration: none;
+   color: #fff;
+}
+
+
+
+.section-footer .section-footer-detail a:hover{
+   
+    color:#ffa500;
+ }
+
+
+ .section-footer .section-footer-detail i{
+    border:1px solid orange;
+    padding:5px;
+    margin:10px;
+    border-radius:5px;
+    cursor: pointer;
+ }
+
+ .section-footer .section-footer-detail i:hover{
+    background-color: #fff;
+    border: 1px solid #fff;
+ }
+
+
+
+/*MediaQueries*/
+@media(max-width:890px){
+
+  
+
+.team-description{
+    display: grid;
+    grid-template-columns:1fr;
+    
+}
+
+}
+
+
+@media(max-width:1200px){
+    .section-footer .section-footer-container{
+        display: grid;
+        grid-template-rows:1fr;
+        grid-template-columns: repeat(2,1fr);
+        gap:40px
+    }
+    
+    }
+    
+    
+    @media(max-width:800px){
+        .section-footer .section-footer-container{
+            display: grid;
+            grid-template-rows:1fr;
+            grid-template-columns:1fr;
+            gap:40px
+        }
+        
+        }
+   
+
+
+    @media(max-width:1250px){
+       .about-description{
+        display: grid;
+            grid-template-rows:1fr;
+            grid-template-columns:1fr;
+            gap:40px
+       }
+    }
+
+    @media(max-width:800px){
+        .aboutBox{
+         display: grid;
+         grid-template-rows:1fr;
+         grid-template-columns:repeat(2,1fr);
+         gap:40px;
+     }
+    }
